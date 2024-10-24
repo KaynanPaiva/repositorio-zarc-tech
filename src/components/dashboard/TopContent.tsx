@@ -36,7 +36,7 @@ export default function TopContent() {
 
   return (
     <section className="flex flex-1 flex-col shadow-lg rounded p-8">
-      <h2 className="text-2xl font-bold mb-4">Top Content</h2>
+      <h2 className="text-2xl font-bold mb-4">Top CONTENT</h2>
       <table className="flex flex-col min-w-full text-left table-auto">
         <thead>
           <tr className="flex justify-between">
