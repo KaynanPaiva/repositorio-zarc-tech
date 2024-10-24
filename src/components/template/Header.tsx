@@ -14,7 +14,7 @@ import { useTheme } from "@/components/theme/ThemeContext";
 import { useState } from "react";
 
 export default function Header() {
-  const { toggleTheme, isDarkMode } = useTheme(); // Obter o estado do tema
+  const { toggleTheme, isDarkMode } = useTheme();
   const [isNotificationOpen, setIsNotificationOpen] = useState(false);
 
   const handleToggleNotifications = () => {
@@ -40,7 +40,7 @@ export default function Header() {
                 ? "translate-x-8 bg-background text-slate-200"
                 : "bg-white"
             }`}
-            onClick={toggleTheme} // Chamar diretamente o toggleTheme
+            onClick={toggleTheme} 
           >
             {isDarkMode ? <IconMoon width={16} /> : <IconSun width={16} />}
           </button>

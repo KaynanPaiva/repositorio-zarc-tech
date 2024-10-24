@@ -25,7 +25,9 @@ export default function Menu() {
             <AccordionTrigger>
               <div className="flex justify-between gap-2">
                 <IconLayoutDashboard />
+                
                 <span>Dashboard</span>
+
               </div>
             </AccordionTrigger>
             <AccordionContent>
